@@ -1,0 +1,49 @@
+
+
+#one{font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+color:red}
+
+#two{font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+color:blue}
+
+
+
+#header {
+	background-color:orange;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 30px;
+	
+	height:40px;
+	text-align: center;
+	width:1340px;
+
+	
+}
+
+#table {
+    margin: 250px 550px 250px 550px;
+	height:500px;
+	padding: 20px;
+
+}
+
+#sidebar {
+    position: fixed;
+  background-color:red;
+
+text-align: center;
+height: 750px
+
+}
+
+#footer {
+    margin: 200px 50px -10px 250px;
+	
+	text-align: center;
+
+}
