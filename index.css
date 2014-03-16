@@ -20,23 +20,24 @@ text-decoration:none;}
 
 img.small1{width:40px;
 height:40px;
-margin-left: 80px;}
+position:absolute; TOP:80px; LEFT:80px;}
 
 img.small2{width:40px;
 height:40px;
-margin-left: 1000px;
-margin-right: 10px;
+position:absolute; TOP:80px; RIGHT:80px;
 }
 
 img.small3{width:40px;
-height:40px;
-
-margin-right: 20px;
+position:absolute; TOP:80px; RIGHT:150px;
+}
+img.small4{width:40px;
+	height:40px;
+position:absolute; TOP:80px; LEFT:150px;;
 }
 
 .skils{
 	font-weight:normal;
-color: white;
+color: white;margin-left:80px;margin-top: 80px;
 }
 #skills{font-size:40px;
 font-weight:normal;
