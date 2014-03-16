@@ -1,0 +1,33 @@
+
+<!DOCTYPE HTML>
+<html>
+
+
+<div>				
+   <h1>Horses for sale</h1>
+
+   <h2>Mares</h2>
+
+   <h3>Pink Diva</h3>
+   <p>Pink Diva has given birth to three Grand National winners.</p>
+
+   <h3>Ring a Rosies</h3>
+   <p>Ring a Rosies has won the Derby three times.</p>
+
+   <h3>Chelsea’s Fancy</h3>
+   <p>Chelsea’s Fancy has given birth to three Gold Cup winners.</p>
+
+   <h2>Stallions</h2>
+
+   <h3>Korah’s Fury</h3>
+   <p>Korah’s Fury has fathered three champion race horses.</p>
+
+   <h3>Sea Pioneer</h3>
+   <p>Sea Pioneer has won The Oaks three times.</p>
+
+   <h3>Brown Biscuit</h3>
+   <p>Brown Biscuit has fathered nothing of any note.</p>
+
+   <p>All our horses come with full paperwork and a family tree.</p>
+</div>
+</html>
