@@ -1,7 +1,7 @@
 p {
     font-family: Arial;
-    color: green;
-    font-size: 24px;
+    color: black;
+    font-size: 20px;
 }
 
 h2 {
@@ -12,7 +12,7 @@ h2 {
 	padding-bottom: 25px;
 	color: #acd1b2;
 }
-a:link {color: blue;}
+
 
 body {
 	background-color: #A3CCCC
@@ -34,4 +34,4 @@ body {
      #Bold{font-family: Verdana;
 	font-weight: bold;
 	text-align: center;
-color:#CC9900}
+}
