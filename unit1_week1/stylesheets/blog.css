@@ -21,6 +21,11 @@ height:100px;}
   margin-right: auto;
  }
 
+a:link{color:orange;}
+a:hover{color:blue;}
+a:visited{color:green;}
+a:active{color: white;}
+
 
    #sidebar{font-size:20px;
    	border: 2px solid #ff0000;
