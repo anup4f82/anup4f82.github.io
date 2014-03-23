@@ -1,3 +1,38 @@
 body{background-color: black;
 font-weight:normal;
 color: white;}
+
+#header{font-size:20px;
+font-weight:bold;
+background-color: gray;
+color:orange;
+text-align:center;
+border: 2px solid #ff0000;
+padding: 5px;
+margin-left: 120px;
+margin-right: 120px;
+height:100px;}
+
+
+#content{width: 500px;
+	font-size:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+
+   #sidebar{font-size:20px;
+   	border: 2px solid #ff0000;
+   	color:orange;
+   	text-align:center;
+   	background-color: gray;
+   	margin-top:30px;
+   	width:200px;
+   	height: 200px;
+
+	float:left;
+*/
+
+
+  }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<link type="text/css" rel="stylesheet" href="stylesheets/blog.css"/>
+<title>My Blog</title>
+
+</head>
+
+<body>
+
+<h1>JavaScript: Why is it So Popular</h1>
+
+<p>Javascript has taken the web world by storm over the last decade. Today every other web page you visit is loaded with Javascript.It has enabled web pages to be more interactive and dynamic to the users. When you add Javacript to your HTML page, the page doesnt need to interact with the Server to get information. The interactions with Javascript happen on the Client side. This reduces the page load time and improves performance. </p><br>
+
+<p>One of the main advantages of javascript is the langauge itself is very easy to learn and clean compared to other programming languages.This means any web developer can learn it and apply it to his or her work. Almost ever browser provides tools so you can easily debug your javascript code and also look at javascript code for any browser you are interested in. My first interaction with Javascript was at work when we had impelemented 'Site analystics' which tells us how many users came to our site, put stuff in the shopping cart, how many users abandoned the shopping cart etc. This Data was then used by Marketing & the Design team to structure the site in a different way. It pinpointed the reason why users dont go through all the way to checkout. </p><br>
+
+<p>Some of the areas where Javascript is used in today's web sites are:
+
+	<ul>
+		<li>Alerting user when they take certain actions on the page</li>
+		<li>Checking if a user-name is available right when you type it instead of submitting the form and then informing you</li>
+		<li>Showing you suggested results as you type</li>
+		<li>Re-loading information on the page as it gets updated - e.g: Sports scores</li>
+		<li>Page Animation</li>
+	</ul>
+
+
+	</p>
+ 
+<p> As you can see from the above Javascript is the reason why we love today's web pages so much and keep going to them. Javascript has abundant ways to make web browsing a pleasurable experience and it is going to keep evolving in years to come.
+</body>
+
+
+</html>
