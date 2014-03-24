@@ -1,7 +1,8 @@
 #header{color: white;
 margin-left:80px;}
 
-body{font-family: 'Signika', sans-serif;}
+body{font-family: 'Signika', sans-serif;
+background-color: #001A00;}
 
 #anup{font-size:40px;
 font-weight:normal;
@@ -30,6 +31,10 @@ box-shadow: 10px 10px 5px #888888;
 text-decoration:none;}
 
 
+a:link{color:orange;}
+a:hover{color:blue;}
+a:visited{color:orange;}
+a:active{color: white;}
 
 img.small1{width:40px;
 height:40px;
@@ -79,4 +84,3 @@ box-shadow: 10px 10px 5px #888888;
 height:60px;
 text-decoration:none;}
 
-body{background-color: black;}
