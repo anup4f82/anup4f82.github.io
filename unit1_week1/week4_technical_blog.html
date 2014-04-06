@@ -15,7 +15,7 @@
 <h1>Ruby: Methods</h1>
 </div>
 <div id="date">
-  <footer>03/29/2014</footer>
+  <footer>04/05/2014</footer>
 
 </div>
 	<div id="sidebar">
@@ -47,28 +47,38 @@
 <div id = "content">
 <p>Ruby Methods</p><br>
 
-<p>Ruby has a ton of methods you can use in your program to do complicated programming faster. Ruby methods lets you achieve taks which would usually take number of lines of code into a single line of code!</p><br>
+<p>One of the cool things about Ruby is the Enumerable Module. Collection objects in Ruby reside in the Enumberable Module. Most of the searching and querying functionality used in Ryby comes from Enumerable. Some of the commonly used Methods provided by Enumerable are: collect,map,include?,sort,reduce,group_by</p><br>
 
-<p> Below I have listed on how to use the Array Map method:</p><br>
+<p> The map method is one of the most powerful enumerable operations in Ruby.map will always return an array as its output.Below I have described the Enumerable map method in detail and some of its uses:</p><br>
 
 
 
 	<p>
-		<div id = "syntax">Map</div><br>The Array map method is used on a array to transform an Array based on the rules set in the code block. The output of Array map method is a transformed array.</li>
+		<div id = "syntax">Map</div><br>The Enumerable map method is used on a array to transform its receiver based on the rules set in the code block. The output of Enumerable map method is always an Array.</li>
 		<p id = "syntax"><strong>Syntax:</strong><br><br>array.map{|item|block}</p>
-         <div id = "syntax">
+         
 		<p>Example:</p>
-		<p> If we have an array , say a = [1,2,3,4]. If we want to get an array that squares each number in the original array then we can use the map method:</p>
-		
-		<p> [1,2,3,4].map{|x| x*2}</p>
-		<p>Output: [2,4,6,8]</p></div>
-		<p>Another example is, Lets say we have an array s = ["tim","tom","sam","mike"] and we want to capitalize every element of the array, we can use the map method as below:</p>
+		<p> If we have an array , say <div id = "syntax">numbers = [1,2,3,4]</div><br> If we want to get an array that squares each number in the original array then we can use the map method:</p>
+		<div id = "syntax">
+		<p> new_numbers = [1,2,3,4].map{|x| x*2}</p>
+		<p>Output: new_numbers =  [2,4,6,8]</p></div>
+		<p>Another example is, Lets say we have an array <div id = "syntax">names = ["tim","tom","sam","mike"]</div><br>If we want to capitalize every element of the array, we can use the map method as below:</p>
     <div id = "syntax">
-		<p>["tim","tom","sam","mike"].map{|x| x.capitalize}</p>
-    <p>Output: ["Tim","Tom","Sam","Mike"]</p>
-      </div>
-        <p> Another method to iterate and perform operations is 'each'. However each method doesnt return a return value. It just executes the block of code. map on the other hand will return a new object. When map is used without a code block it will return a ''</p>
- 
+		<p>new_names = ["tim","tom","sam","mike"].map{|x| x.capitalize}</p>
+    <p>Output: new_names =  ["Tim","Tom","Sam","Mike"]</p></div>
+    <p>In the above cases we used the map method. Ruby also provides the map! method which is the destructive version of map. It will transform the array in place and return it.</p>
+    
+    <p>e.g: In the above example where we capitalize every word of the array using the map method, the value of the original array <span style="color:orange">'names' will remain ["tim","tom","sam","mike"] </span></p>
+    <p>But if we use map! method, it will transform the original array as well:<br><div id = "syntax">
+      names = ["tim","tom","sam","mike"]<br><br>
+
+        new_names = names.map!{|x| x.capitalize}<br><br>
+
+      Output:<br><br>names = ["Tim","Tom","Sam","Mike"]<br><br> new_names = ["Tim","Tom","Sam","Mike"]
+</div>
+     </p>
+
+        <p> As you can see the Enumerable map method is very powerful and can be a usefool method in programming!.</p>
 </div>
 </body>
 
