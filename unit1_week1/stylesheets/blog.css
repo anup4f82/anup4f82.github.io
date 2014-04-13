@@ -4,6 +4,23 @@ color: white;}
 
 body{font-family: 'Signika', sans-serif;}
 
+#code{font-size:30px;
+font-weight:lighter;
+color:orange;
+text-align:left;
+border-radius:15px;
+background-color: gray;
+width:400px;
+height:400px;
+padding: 10px; 
+border:2px solid black;
+margin-top: 50px;
+margin-bottom: 70px;
+margin-left: 10px;
+margin-right: 50px;
+
+}
+
 #header{font-size:20px;
 font-weight:bold;
 background-color: gray;

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<link type="text/css" rel="stylesheet" href="stylesheets/blog.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+<title>My Blog</title>
+
+</head>
+
+<body>
+<div id="header">
+<h1>Ruby: Classes</h1>
+</div>
+<div id="date">
+  <footer>04/12/2014</footer>
+
+</div>
+	<div id="sidebar">
+   
+    <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/blog.html">Blog: Favourite Websites</a>
+    </p>
+ <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week2_technical_blog.html">Blog: Javascript</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week2_cultural_blog.html">Blog: Cultural Values</a>
+    </p>
+    <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week3_technical_blog.html">Blog: Ruby Loops</a>
+    </p>
+    <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week3_cultural_blog.html">Blog: Pairing and giving feedback</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week4_technical_blog.html">Blog: Ruby: Methods</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week4_cultural_blog.html">Blog: Dealing with Conflict</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week5_technicall_blog.html">Blog: Ruby: Classes</a>
+    </p>
+
+
+</div>
+<div id = "content">
+<p>Ruby Classes</p><br>
+
+<p>Ruby is a object-oriented Program. Everything on Ruby is an object. Ruby Class allows you to create Objects and use the Class Methods to perform actions.
+Below I have described how classes and Objects work together and how it can be used.</p><br>
+
+<p>Let's have some fun with Classes and Objects. Let's say we have Data of TV Channels and the shows per channel and the what day/time it plays. If we want to output the TV Channel and the Shows and their timings. This can be achieved using Ruby Classes & Objects</p>
+
+<p>
+<div id="code">
+class Tvshows<br>
+    
+    def initialize(shows)<br> 
+         @shows = shows<br>
+        end<br>
+    def showlist<br>
+     
+     @shows.each do |x,y|<br>
+        puts "#{x} plays at #{y}"<br>
+         end<br>
+    
+     return<br>
+end<br>
+
+end<br>
+      </div>  
+      
+      <p> In the above piece of code the @shows is called a 'instance variable'. Instance variables are available to all the methods for the intance of an object.As you see in the above example I haved used @shows in the showlist method to display the showlistings</p>
+       <p> Now, if we want to display the TV Channels and Show listings with timings we will create a Object called cbs. I will pass a hash as argument with Tv shows and their timings</p>
+
+<p><div id="syntax" For e.g: <br>cbs = Tvshows.new({"CSI" => "Mon 9:00 PM PST", "NCIS" => "Tues 8:00 PM PST"})<br><br></div>
+Now we will call the method showlist as <br><br> <span style="color:orange">cbs.showlist</span></p><br>
+This will output:<br><br><span style="color:orange">NCIS plays at Tues 8:00 PM PST<br>
+CSI plays at Mon 9:00 PM PST</span></p>
+</div>
+</body>
+
+
+</html>
