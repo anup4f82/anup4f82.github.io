@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<link type="text/css" rel="stylesheet" href="stylesheets/blog.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+<title>My Blog</title>
+
+</head>
+
+<body>
+<div id="header">
+<h1>Functional vs Object Oriented Programming</h1>
+</div>
+<div id="date">
+  <footer>04/19/2014</footer>
+
+</div>
+	<div id="sidebar">
+   
+    <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/blog.html">Blog: Favourite Websites</a>
+    </p>
+ <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week2_technical_blog.html">Blog: Javascript</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week2_cultural_blog.html">Blog: Cultural Values</a>
+    </p>
+    <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week3_technical_blog.html">Blog: Ruby Loops</a>
+    </p>
+    <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week3_cultural_blog.html">Blog: Pairing and giving feedback</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week4_technical_blog.html">Blog: Ruby: Methods</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week4_cultural_blog.html">Blog: Dealing with Conflict</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week5_technical_blog.html">Blog: Ruby: Classes</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week5_cultural_blog.html">Blog: Tech World Problems</a>
+    </p>
+       <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week6_technical_blog.html">Blog: OOP vs Functional Programming</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week6_cultural_blog.html">Blog: Stereotype Threat</a>
+    </p>
+
+
+</div>
+<div id = "content">
+<p>Functional and Object Oriented programming(OOP) are two programming paradigms used by Developers. In Object oriented programming we define Classes which will have certain methods. We create objects as a Instance of the class and then use the Class Methods to peform coding tasks. Each object has its own attributes. These attributes can be modifed and the Class methods will then use the new object attributes. Functional programming on the other hand relies on user input to fetch Data or perform actions. Every time we need to use the function we need to pass in the function name and optional arguments and get the Data we are looking for.</p>
+
+<p>Here is an example of OOP vs Functional programming:</p>
+
+<p>Supposed we want to store Data for a group of Students attending a Ruby Class: </p>
+
+<p>OOP: <br>
+  <p>
+    <div id="code1">
+   class StudentData<br>
+  def initialize(name,age,gender)<br>
+  @name = name<br>
+  @age = age<br>
+  @gender = gender<br>
+  end<br>
+attr_writer :name,:age,:gender<br>
+  def data<br>
+      puts "Name: #{@name}\nAge: #{@age}\nGender: #{@gender}"<br>
+  end<br>
+      
+  end<br>
+</div>
+</p>
+</p>
+<p> We can now create object like:<br><br><span style="color:orange">adam = StudentData.new("Adam","20","M")</span>
+  <br><span style="color:orange">sara = StudentData.new("Sara","21","F")</span><br><br>
+  And use the Class Method to get Data:<br>e.g: <span style="color:orange">adam.data</span>  which gives us:<br><br>
+ 
+  Name: Adam<br>
+  Age: 20<br>
+  Gender: M<br><br>
+ 
+  Or <span style="color:orange">sara.data</span> which will give us:<br><br>
+
+Name: Sara <br>
+  Age: 21<br>
+  Gender: F<br><br>
+ 
+ With Object oriented, we can also change the Object attributes. If we want to change the age for adam object, we can do <br>
+  <span style="color:orange">adam.age = 22</span>  and now on calling adam.data will give us:<br><br>
+   Name: Adam<br>
+  Age: 22<br>
+  Gender: M<br>
+</p>
+<p>With Functional programming we will have a function like:<br> <div id="code2">
+  def student_data(name,age,gender)<br>
+     puts "Name: #{name}\nAge: #{age}\nGender: #{gender}"<br>
+  end<br></div></p>
+
+  <p>We will now have to call the function like: <span style="color:orange">student_data("Adam",20,"M")</span> to get the Data we want. If we have to change any attribute we will have to call the function again with different set of attributes.</p>
+
+  <p> As you see from the simple example above thereare numerous advantages of using OOP vs Functional programming.</p>
+</div>
+</body>
+
+
+</html>
