@@ -65,7 +65,7 @@
 <div id = "content">
 <p>SQL Injection is a way used by Hackers to steal Data from companies that host Web applications. It is a technique used by hackers wherein they insert
 cleverly constructed SQL Statements into a user input form that will get them user Data like usernames,password,Account no's etc. This poses a serious threat to the Customer's that have their Data stored in the company's Database. Especially in Financial and Banking Web applications such a attack will prove detrimental since the hacker could potentially access the User's Bank Account details! A hacker could also use SQL Injection to wipe out a complete Table. </p>
-<p>SQL Injection is and how dangerous it can prove to a company and its consumers's security. Let's see some examples of how a hacker can use simple SQL statements to get access to an application's Database or wipe out a Table from the Database:</p>
+<p>Let's see some examples of how a hacker can use simple SQL statements to get access to an application's Database or wipe out a Table from the Database:</p>
 <h2> SQL Injection : 1 = 1 Always True</h2>
 <p><div id = "sql1">Select Name,Password from users where user_id = 101 OR 1 = 1</div></p>
 <p> In the above example, 1 = 1 will always evaluate to true, thus giving a list of all Names and passwords in the users table!. A Hacker will just have to input user_id = 101 OR 1 = 1 in the input box and hack the system!</p>
