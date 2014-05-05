@@ -1,21 +1,21 @@
 
   
-body{background-color: #CCFFFF;
+body{background-color: #003333;
 font-weight:normal;
-color: black;}
+color: white;}
 
 
-a:link{color:#FFCC00;}
-a:hover{color:blue;}
-a:visited{color:#FFCC00;}
+a:link{color:#B24200;}
+a:hover{color:#B24200;}
+a:visited{color:#592100;}
 a:active{color: white;}
 
 
    #sidebar{font-size:20px;
-   	border: 2px solid #ff0000;
-   	color: #FFCC00;
+   	/*border: 2px solid #ff0000;*/
+   	color: white;
    	text-align:center;
-   	background-color: #0000CC;
+   	background-color: #FF5E00;
    	margin-top:30px;
    	width:200px;
    	height: 250px;
@@ -28,14 +28,25 @@ a:active{color: white;}
   }
 
 
+  #usage{color:#FF5E00;
+    font-weight:bold;
+    font-size:25px;
+  
+/*margin-left: 120px;
+margin-right: 120px;*/
+
+  }
+
+
    #date{
-   	color:#FFCC00;
+   	color:#FF5E00;
    	margin-top:30px;
    	margin-right: 60px;
     float:right;
   	text-align: center;
   font-size:20px;
 font-weight:bold;
+
 }
 
   
@@ -43,11 +54,12 @@ font-weight:bold;
 
   #header{font-size:20px;
 font-weight:bold;
-background-color: #0000CC;
-color:#FFCC00;
+background-color: #FF5E00;
+/*background-color:#FFFF66;*/
+color: white;
 text-align:center;
-border: 2px solid #ff0000;
-padding: 5px;
+/*border: 2px solid white;
+*/padding: 5px;
 margin-left: 120px;
 margin-right: 120px;
 height:100px;
