@@ -45,7 +45,7 @@ $('body').css("background-image", 'url(BG-Basketball_Court1.jpg)');
   $('#blog').on('mouseover', function(e){
      e.preventDefault()
     
-    $('#blog').css("background-image", 'url(blscreen.png)');
+    $('#blog').css("background-image", 'url(blog3.png)');
 
 })
 
