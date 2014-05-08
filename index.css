@@ -6,10 +6,12 @@ margin-left:80px;}
 
 body{font-family: 'Signika', sans-serif;
 background-color: #001A00;
+font-size: 20px;
+color: white;
 /*background-image: url("sport-balls-background-seamless.jpg");*/
 
-
-background-image: url("sports_1_h.jpg");
+/*background-image: url("284881_original.jpg");*/
+background-image: url("BG-Basketball_Court1.jpg");
 width: 100%; 
     height: 100%; 
     /*position: fixed;*/ 
@@ -79,6 +81,10 @@ position:absolute; TOP:80px; LEFT:150px;;
 	font-weight:normal;
 color: black;margin-left:80px;margin-top: 80px;
 }
+.sanfran{
+    font-weight:normal;
+color: black;margin-left:80px;margin-top: 80px;
+}
 #skills{font-size:40px;
 font-weight:normal;
 color: purple;
@@ -94,6 +100,19 @@ box-shadow: 10px 10px 5px #888888;
 text-decoration:none;}
 
 #interests{font-size:40px;
+font-weight:normal;
+color: purple;
+border-radius:15px;
+text-align:center;
+background-color: orange;
+border: 1px solid black;
+padding: 10px 10px 10px 10px;
+margin: 20px 80px 20px 80px;
+box-shadow: 10px 10px 5px #888888;
+height:60px;
+text-decoration:none;}
+
+#images{font-size:40px;
 font-weight:normal;
 color: purple;
 border-radius:15px;

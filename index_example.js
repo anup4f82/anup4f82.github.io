@@ -29,6 +29,18 @@ $('body').css("background-image", 'url(BG-Basketball_Court1.jpg)');
      $('.skils').css('font-size' ,'20px');
 })
  
+ $('#images').on('mouseover', function(e){
+     e.preventDefault()
+    // $(this).attr('src','google2.png')
+    $('body').css("background-image", 'url(284881_original.jpg)');
+  })
+
+
+  $('#images').on('mouseout', function(e){
+     e.preventDefault()
+    // $(this).attr('src','google2.png')
+    $('body').css("background-image", 'url(BG-Basketball_Court1.jpg)');
+  })
 
 
 
@@ -42,7 +54,10 @@ $('body').css("background-image", 'url(BG-Basketball_Court1.jpg)');
     $(this).attr('src','google.jpg')
   })
 
- 
+   $('.sanfran').on('mouseover', function(e){
+     e.preventDefault()
+    $(this).attr('src','284881_original.jpg')
+  })
  
  
 })  
