@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<link type="text/css" rel="stylesheet" href="unit1_week1/stylesheets/blog.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+<title>My Blog</title>
+
+</head>
+
+<body>
+<div id="header">
+<h1>Regular Expressions</h1>
+</div>
+<div id="date">
+  <footer>05/09/2014</footer>
+
+</div>
+	<div id="sidebar">
+   
+    <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/blog.html">Blog: Favourite Websites</a>
+    </p>
+ <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week2_technical_blog.html">Blog: Javascript</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week3_technical_blog.html">Blog: Ruby Loops</a>
+    </p>
+      <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week4_technical_blog.html">Blog: Ruby: Methods</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week5_technical_blog.html">Blog: Ruby: Classes</a>
+    </p>
+      <p>
+      <a href ="http://anup4f82.github.io/unit1_week1/week6_technical_blog.html">Blog: OOP vs Functional Programming</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/week7_technical_blog.html">Blog: SQL Injection</a>
+    </p>
+     <p>
+      <a href ="http://anup4f82.github.io/week8_technical_blog.html">Blog: Rails Framework</a>
+    </p>
+       <p>
+      <a href ="http://anup4f82.github.io/week9_technical_blog.html">Blog: Regular Expressions</a>
+    </p>
+  
+
+
+</div>
+<div id = "content">
+<p>A Regular Expression is a sequence of characters that helps you match or find strings or sets of strings using specialized syntax held in a pattern. Regular Expressions are used to determine if a string contains a given pattern or extract portions that match. This is very useful tool to search through huge amounts of Data like Files,Databases etc.</p>
+<p> A Regular Expression is delimited with forward slashes (/).</p>
+
+
+<p> Below I have provided some simple examples of how Regular expressions are used to find string patterns in Ruby</p>
+
+<h2>[abc] - A single character of a,b,c</h2>
+<p><div id = "ruby">/[abcd]/.match 'ruby' <br>Output: #&#60MatchData "b" &#62<br>
+/[xyzn]/.match 'ruby' <br>Output: nil
+</div></p>
+<p>
+The match method above returns a match object. In the first example above, the regular expression returns a Match object since 'b' is present in 'ruby'. In the second example none of the characters in [xyzn] exist in 'ruby' and hence it returns nil</p>
+
+<h2>[^abc] - Any character except a,b or c</h2>
+<p><div id = "ruby">/[^ruby]/.match 'ruby' <br>Output: nil<br>/[^abc]/.match 'ruby' 
+<br>Output: #&#60MatchData "r"&#62
+
+</div></p>
+
+<p> In the first example above, the Output is nil, since the string does not have any characters except 'r','u','b','y'. In the second example, it returns a object since 'r' is not one of 'a','b' or 'c'.
+</p>
+
+<h2>[a-z] - Any character in range of a-z</h2>
+<p><div id = "ruby">/[x-z]/.match 'ruby' <br>Output: #&#60MatchData "y"&#62<br>
+/[c-q]/.match 'ruby' <br>Output: nil
+
+</div></p>
+
+<p> In the first example above, it returns the character 'y' since it finds  y in the range provided : [x-z]. In the second example the Output is nil since it doesn't find 'r','u','b','y' in the range [c-q].
+</p>
+
+<h2>^ - Start of line</h2>
+<p><div id = "ruby">/^b/.match 'ruby'<br>Output: nil/<br>
+/^r/.match 'ruby'<br>Output: #&#60MatchData "r"&#62
+
+  </div></p>
+
+<p> In the first example since 'b' is not the first character in string 'ruby' it returns nil. In the second example it returns an object since 'r' is the first character in 'ruby'.
+</p>
+
+<p> Hope you guys found the above examples useful in understanding Regular Expressions. There are many other patterns one can use to search using Regular Expressions. For more details please go to .....</p>
+
+
+</div>
+</body>
+
+
+</html>
