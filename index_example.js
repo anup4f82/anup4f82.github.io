@@ -35,9 +35,9 @@ $(document).ready(function(){
   $('#anup').on('mouseover', function(e){
      e.preventDefault()
     
-     $('#anup').css("background-image", 'url(anup.jpg)').animate({ height: '300', left: '0', top: '0', width: '450'},"slow");
-    // $('#anup').animate({width: 400px, height:400px}, 1000);
-
+     $('#anup').css("background-image" ,'url(anup.jpg)').animate({ height: '300', left: '0', top: '0', width: '450'},"slow");
+   
+ $('#blog').css("background-image", 'none').animate({ height: '60', left: '0', top: '0', width: '420'},"slow");
 })
 
 
@@ -99,7 +99,7 @@ $("#anup").click(function() {
  $('#images').on('mouseover', function(e){
      e.preventDefault()
     // $(this).attr('src','google2.png')
-    $('#images').css("background-image", 'url(284881_original.jpg)','width','300px').animate({ height: '300', left: '0', top: '0', width: '1245'},"slow");
+    $('#images').css("background-image", 'url(284881_original.jpg)').animate({ height: '300', left: '0', top: '0', width: '550'},"slow");
 
     // $('#images').css('width': '300px');
   })
