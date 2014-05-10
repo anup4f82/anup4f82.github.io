@@ -37,7 +37,7 @@ $(document).ready(function(){
     
      $('#anup').css("background-image" ,'url(anup.jpg)').animate({ height: '300', left: '0', top: '0', width: '450'},"slow");
    
- $('#blog').css("background-image", 'none').animate({ height: '60', left: '0', top: '0', width: '420'},"slow");
+
 })
 
 
